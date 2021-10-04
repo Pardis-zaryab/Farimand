@@ -1,0 +1,23 @@
+body {
+    Background-color: #EAEAEA;
+}
+
+#top-menu {
+    background: cadetblue;
+    color: #FFCC00;
+    border-bottom: 2px solid #FFCC00;
+    font-size: small;
+}
+
+.top-menu-link {
+    color: white;
+    padding: 5px;
+}
+
+.top-menu-link:hover {
+    color: #FFCC00;
+}
+
+#top-banner {
+    background: #A4A4A4;
+}

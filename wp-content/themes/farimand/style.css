@@ -1,0 +1,160 @@
+/*
+Theme Name: Twenty Twenty
+Theme URI: https://farimand.com
+Author: farimand.com
+Author URI: https://farimand.com
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://farimand.com/license
+Text Domain: farimand
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+
+}
+
+#top-menu {
+    background: #1C9CEA;
+    color: white;
+    border-bottom: 2px solid #FFCC00;
+    font-size: small;
+}
+
+.top-menu-icon {
+    padding: 5px;
+    color: white;
+}
+
+.top-menu-icon:hover {
+    color: #FFCC00;
+}
+
+#top-banner {
+    background: #A4A4A4;
+}
+
+#nav {
+    font-size: small;
+}
+
+#nav-links {
+    color: #1C9CEA;
+}
+
+#nav-links:hover{
+    color: #FFCC00;
+}
+
+#drop-down {
+    background-color: rgba(28, 156, 234, 0.4);
+    opacity: 0.9;
+    font-size: small;
+    border-radius: 0px 0px 5px 5px;
+}
+
+#drop-down-nav-links {
+    color: white;
+}
+
+#drop-down-nav-links:hover{
+    background: #FFCC00;
+    color: #2B2B2B;
+}
+
+#search-input {
+    font-size: small;
+    border-radius: 5px 0px 0px 5px;
+    border-color: #1C9CEA;
+}
+
+#search-btn {
+    background: #1C9CEA;
+    color: white;
+    font-size: small;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#search-btn:hover {
+    background: #FFCC00;
+    color: #383838;
+}
+
+.nav-item:hover .dropdown-menu:not(.show) {
+    display: block;
+}
+
+#card-header{
+    background-color: #1C9CEA;
+    color: white;
+}
+
+#post-title {
+    background-color: #1C9CEA;
+    color: white;
+}
+
+.title-links {
+    color: #1C9CEA;
+    text-decoration: none;
+    border-bottom: 2px solid #FFCC00;
+}
+
+.title-links:hover {
+    color: #FFCC00;
+    border-bottom-color: #1C9CEA;
+}
+
+.posted-on {
+    text-decoration: none;
+    font-size: small;
+    color: #1C9CEA;
+}
+
+.posted-on:hover {
+    color: #FFCC00;
+}
+
+.updated:not(.published) {
+    display: none;
+}
+
+#post-meta {
+    border-bottom: 1px solid #1c9cea;
+}
+
+#more-btn {
+    border: 1px solid #1C9CEA;
+    color: #1C9CEA;
+}
+
+#more-btn:hover {
+    background: #FFCC00;
+    color: #383838;
+    border: 1px solid #FFCC00;
+}
+
+.more-btn-link {
+    text-decoration: none;
+    color: #1C9CEA;
+}
+
+.more-btn-link:hover {
+    color: #383838;
+}
+
+#p-break-btn {
+    border: 1px solid #1C9CEA;
+    color: #1C9CEA;
+}
+
+/*img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
